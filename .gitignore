@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
+
+# Uploads - keep structure but ignore content
+uploads/*
+!uploads/.gitkeep
+!uploads/avatars/.gitkeep
+!uploads/plats/.gitkeep
+!uploads/litiges/.gitkeep
+!uploads/thumbnails/.gitkeep
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/

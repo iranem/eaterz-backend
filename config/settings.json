@@ -1,0 +1,97 @@
+{
+  "system": {
+    "siteName": "EATERZ",
+    "siteDescription": "Plateforme de livraison de repas moderne",
+    "maintenanceMode": false,
+    "timezone": "Africa/Algiers",
+    "currency": "DZD",
+    "dateFormat": "DD/MM/YYYY",
+    "timeFormat": "HH:mm",
+    "language": "fr"
+  },
+  "payment": {
+    "stripePublicKey": "",
+    "stripeSecretKey": "",
+    "paypalClientId": "",
+    "paypalSecret": "",
+    "cashOnDeliveryEnabled": true,
+    "onlinePaymentEnabled": true,
+    "minimumOrderAmount": 200,
+    "maximumOrderAmount": 50000
+  },
+  "security": {
+    "twoFactorAuthRequired": false,
+    "passwordMinLength": 8,
+    "passwordRequireNumbers": true,
+    "passwordRequireSpecialChars": true,
+    "sessionTimeout": 3600,
+    "maxLoginAttempts": 5,
+    "rateLimitRequests": 100,
+    "rateLimitWindow": 900
+  },
+  "notifications": {
+    "emailNotifications": true,
+    "smsNotifications": true,
+    "pushNotifications": true,
+    "orderConfirmation": true,
+    "orderStatusUpdates": true,
+    "promotionalEmails": false,
+    "adminAlerts": true
+  },
+  "appearance": {
+    "primaryColor": "#FF6B35",
+    "secondaryColor": "#2E86AB",
+    "accentColor": "#F7931E",
+    "borderRadius": "rounded-xl",
+    "fontFamily": "Inter",
+    "darkModeEnabled": true,
+    "animationsEnabled": true
+  },
+  "delivery": {
+    "baseDeliveryFee": 200,
+    "freeDeliveryThreshold": 2000,
+    "maxDeliveryDistance": 15,
+    "deliveryTimeEstimate": 30,
+    "deliveryZones": [],
+    "deliveryPartners": [],
+    "realTimeTracking": true
+  },
+  "commission": {
+    "platformCommission": 15,
+    "deliveryCommission": 10,
+    "premiumPartnerCommission": 12,
+    "referralBonus": 500,
+    "loyaltyProgramEnabled": true
+  },
+  "users": {
+    "emailVerificationRequired": true,
+    "phoneVerificationRequired": false,
+    "socialLoginEnabled": true,
+    "googleClientId": "",
+    "facebookAppId": "",
+    "autoApprovePrestataires": false,
+    "kycRequired": true
+  },
+  "email": {
+    "smtpHost": "",
+    "smtpPort": 587,
+    "smtpUsername": "",
+    "smtpPassword": "",
+    "fromEmail": "noreply@eaterz.dz",
+    "fromName": "EATERZ"
+  },
+  "mobile": {
+    "appStoreUrl": "",
+    "playStoreUrl": "",
+    "pushNotificationServerKey": "",
+    "mobileApiRateLimit": 200,
+    "mobileSessionTimeout": 7200
+  },
+  "data": {
+    "gdprCompliant": true,
+    "dataRetentionDays": 365,
+    "backupFrequency": "daily",
+    "analyticsEnabled": true,
+    "cookieConsentRequired": true
+  }
+}
